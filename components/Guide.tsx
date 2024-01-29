@@ -11,18 +11,19 @@ const Guide = () => {
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Guide You To Easy Path
+            Guide You to Easy Path
           </h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]:">
-            Starting from the anxiety of the climbers when visiting a new
-            climbing location, the possibility of getting lost is very large.
-            That's why we are here for those of you who want to start an
-            adventure
+          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+            Only with the hilink application you will no longer get lost and get
+            lost again, because we already support offline maps when there is no
+            internet connection in the field. Invite your friends, relatives and
+            friends to have fun in the wilderness through the valley and reach
+            the top of the mountain
           </p>
         </div>
       </div>
 
-      <div className="flexCenter max-container relative w-full ">
+      <div className="flexCenter max-container relative w-full">
         <Image
           src="/boat.png"
           alt="boat"
@@ -49,7 +50,7 @@ const Guide = () => {
             </div>
 
             <div className="flex w-full flex-col">
-              <p className="regular-16 text-gray-20">Start Track</p>
+              <p className="regular-16 text-gray-20">Start track</p>
               <h4 className="bold-20 mt-2 whitespace-nowrap">
                 Wonorejo Pasuruan
               </h4>
