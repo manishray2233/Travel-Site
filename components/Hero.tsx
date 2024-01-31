@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Button from "./Button";
 
-/* Hero section may not be responsive in the mobile view */
-
 const Hero = () => {
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
@@ -64,7 +62,7 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Bargarh</p>
+            <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
 
           <div className="flexBetween">
